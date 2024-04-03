@@ -125,7 +125,7 @@ class musicplayer:
 
         #Adding leftside image--
             L=LEFT
-        self.L_photo=ImageTk.PhotoImage(file='cool1.png')
+        self.L_photo=ImageTk.PhotoImage(file='b2.png')
         L_photo=Label(self.root,image=self.L_photo).place(x=50,y=50,width=500,height=400)
         
         #Adding img--
