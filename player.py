@@ -83,13 +83,13 @@ class musicplayer:
             #self.im3=ImageTk.PhotoImage(file='skin7.jpeg')
             #self.im4=ImageTk.PhotoImage(file='skin8.jpeg')
 
-            self.imglabel=Label(self.root,bg='')
+            self.imglabel=Label(self.root,bg='indigo')
             self.imglabel.place(x=50,y=50)
                         
             animation()
 
                                               
-        def stopmusic():
+        def stopmusic(): 
             mixer.music.stop()
             self.label1['text']='Music_Stopped...'
 
