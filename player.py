@@ -217,11 +217,9 @@ class musicplayer:
         
         
 
-        
 
 
 
-        
 
 
         
