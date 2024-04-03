@@ -83,7 +83,7 @@ class musicplayer:
             self.im3=ImageTk.PhotoImage(file='skin7.jpeg')
             self.im4=ImageTk.PhotoImage(file='skin8.jpeg')
 
-            self.imglabel=Label1(self.root,bg='green')
+            self.imglabel=Label(self.root,bg='green')
             self.imglabel.place(x=50,y=50)
                         
             animation()
