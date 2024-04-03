@@ -78,12 +78,12 @@ class musicplayer:
                 mixer.music.unpause()
                 self.label1['text']='Music_Unpaused'
 
-            self.im1=ImageTk.PhotoImage(file='skin5.jpeg')
-            self.im2=ImageTk.PhotoImage(file='skin6.jpeg')
-            self.im3=ImageTk.PhotoImage(file='skin7.jpeg')
-            self.im4=ImageTk.PhotoImage(file='skin8.jpeg')
+            #self.im1=ImageTk.PhotoImage(file='skin5.jpeg')
+            #self.im2=ImageTk.PhotoImage(file='skin6.jpeg')
+            #self.im3=ImageTk.PhotoImage(file='skin7.jpeg')
+            #self.im4=ImageTk.PhotoImage(file='skin8.jpeg')
 
-            self.imglabel=Label(self.root,bg='green')
+            self.imglabel=Label(self.root,bg='')
             self.imglabel.place(x=50,y=50)
                         
             animation()
@@ -115,16 +115,16 @@ class musicplayer:
 
         #Animation--
         def animation():
-            self.im1=self.im2
-            self.im2=self.im3
-            self.im3=self.im4
-            self.im4=self.im1
-            self.imglabel.config(image=self.im1)
-            self.imglabel.after(1000,animation)
+            #self.im1=self.im2
+            #self.im2=self.im3
+            #self.im3=self.im4
+            #self.im4=self.im1
+            #self.imglabel.config(image=self.im1)
+            #self.imglabel.after(1000,animation)
 
 
         #Adding leftside image--
-        L=LEFT
+            L=LEFT
         self.L_photo=ImageTk.PhotoImage(file='cool1.png')
         L_photo=Label(self.root,image=self.L_photo).place(x=50,y=50,width=500,height=400)
         
